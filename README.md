@@ -10,7 +10,7 @@ The API is split into two parts, the `Battery` module and the `Provider.Battery`
 
 # `Battery.Provider`
 
-The `Battery.Provider` provider provides change events to the subscriber. Events will fire when `charging`, `chargingTime`, `dischargingTime`, or `level` values change.
+The `Battery.Provider` provides change events to the subscriber. Events will fire when `charging`, `chargingTime`, `dischargingTime`, or `level` values change.
 
 Example of using the provider
 
@@ -38,7 +38,7 @@ component Main {
 
 # `Battery`
 
-The `Battery` module provides direcet access to the Battery information. 
+The `Battery` module provides direct access to the Battery information. 
 
 All functions return a promise, because the underlying browser API to retrieve the `BatteryManager` with `window.navigator.getBattery()` returns a promise.
 
