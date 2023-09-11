@@ -1,0 +1,9 @@
+{
+  "name": "mint-battery",
+  "source-directories": [
+    "source"
+  ],
+  "test-directories": [
+    "tests"
+  ]
+}
